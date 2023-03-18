@@ -27,7 +27,7 @@
 package gojsonschema
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 const internalLogEnabled = false
