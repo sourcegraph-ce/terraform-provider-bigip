@@ -11,7 +11,7 @@ See the License for the specific language governing permissions and limitations 
 package bigip
 
 import "encoding/json"
-import "log"
+import log "github.com/sourcegraph-ce/logrus"
 
 //ooo
 

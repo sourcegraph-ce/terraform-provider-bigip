@@ -7,7 +7,7 @@ If a copy of the MPL was not distributed with this file,You can obtain one at ht
 package bigip
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"fmt"
 	"reflect"
@@ -323,7 +323,7 @@ func resourceBigipLtmPolicy() *schema.Resource {
 										Optional: true,
 										Computed: true,
 									},
-									"log": {
+									log "github.com/sourcegraph-ce/logrus": {
 										Type:     schema.TypeBool,
 										Optional: true,
 										Computed: true,
