@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"github.com/f5devcentral/go-bigip"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 // this module does not have DELETE function as there is no API for Delete

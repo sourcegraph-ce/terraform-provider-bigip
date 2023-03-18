@@ -13,7 +13,7 @@ import (
 	uuid "github.com/google/uuid"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/structure"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"sync"
 )
