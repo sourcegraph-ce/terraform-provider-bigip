@@ -16,7 +16,7 @@ To read more about As3 check https://clouddocs.f5.com/products/extensions/f5-app
 package bigip
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 type Appsvcs struct {

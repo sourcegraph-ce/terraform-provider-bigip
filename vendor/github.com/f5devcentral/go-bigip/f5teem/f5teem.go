@@ -22,7 +22,7 @@ import (
 	"fmt"
 	uuid "github.com/google/uuid"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"os"
 	"time"

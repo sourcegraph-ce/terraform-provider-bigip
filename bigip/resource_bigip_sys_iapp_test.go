@@ -7,7 +7,7 @@ package bigip
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"testing"
 
 	"github.com/f5devcentral/go-bigip"
